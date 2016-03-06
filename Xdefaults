@@ -1,7 +1,7 @@
 URxvt.depth: 32
+URxvt.perl-lib: /usr/lib/urxvt/perl:/home/fwilson/software/urxvt-perl
 URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select,resize-font
 URxvt.letterSpace: -1
-URxvt.perl-lib: /usr/lib/urxvt/perl
 
 URxvt.font: xft:Terminess Powerline:size=12
 URxvt.matcher.button: 1
