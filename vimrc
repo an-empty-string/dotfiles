@@ -77,6 +77,7 @@ set undoreload=10000 "maximum number lines to save for undo on a buffer reload
 
 set t_Co=256
 let g:airline_powerline_fonts = 1
+let g:neocomplete#enable_at_startup = 1
 
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
