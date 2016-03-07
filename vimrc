@@ -58,6 +58,7 @@ autocmd InsertLeave * :set relativenumber
 
 nmap <silent> <F12> :call <SID>ToggleMouse()<CR>
 nnoremap <silent> <Leader>b :TagbarToggle<CR>
+nnoremap Q <nop>
 
 let g:localvimrc_whitelist = ".*"
 let g:html_indent_inctags = "html,body,head,tbody"
@@ -75,5 +76,20 @@ set undolevels=1000 "maximum number of changes that can be undone
 set undoreload=10000 "maximum number lines to save for undo on a buffer reload
 
 set t_Co=256
-
 let g:airline_powerline_fonts = 1
+
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'vim-airline/vim-airline'
+Plugin 'kien/ctrlp.vim'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'Syntastic'
+Plugin 'Mustang2'
+Plugin 'Shougo/neocomplete.vim'
+
+call vundle#end()
+filetype plugin indent on
+
+colorscheme Mustang
