@@ -157,6 +157,9 @@ bindsym $mod+r mode "resize"
 bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 
+bind 232 exec "xbacklight -dec 10"
+bind 233 exec "xbacklight -inc 10"
+
 for_window [title="fn[.]*"] floating enable;
 
 exec "volumeicon"
