@@ -16,7 +16,7 @@ URxvt.clipboard.pastecmd: xsel -o
 URxvt.clipboard.copycmd: xsel -i
 URxvt.meta8: False
 URxvt.scrollBar: False
-Xcursor.size: 40
+Xcursor.size: 20
 Xcursor.theme: Adwaita
 
 *background: #111111

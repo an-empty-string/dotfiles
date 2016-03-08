@@ -9,6 +9,3 @@ export EDITOR="vim"
 source $ZSH/oh-my-zsh.sh
 
 SSH_AUTH_SOCK=/home/fwilson/.gnupg/S.gpg-agent.ssh; export SSH_AUTH_SOCK;
-
-~/bin/quote
-echo
