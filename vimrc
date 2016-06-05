@@ -97,6 +97,12 @@ Plugin 'Mustang2'
 Plugin 'Shougo/neocomplete.vim'
 Plugin 'Shougo/neosnippet.vim'
 Plugin 'Shougo/neosnippet-snippets'
+Plugin 'tpope/vim-speeddating'
+Plugin 'mattn/calendar-vim'
+Plugin 'vim-scripts/utl.vim'
+Plugin 'jceb/vim-orgmode'
+Plugin 'mattn/webapi-vim'
+Plugin 'mattn/gist-vim'
 
 call vundle#end()
 filetype plugin indent on
